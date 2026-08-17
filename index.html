@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Market Ticker</title>
+<style>
+  :root {
+    --paper:#FFFFFF; --ink:#14181D; --body:#333B45; --muted:#5F6874;
+    --rule:#E2E6EC; --surface:#F6F8FA; --accent:#B8800A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:#0E1116; --ink:#E6EAF0; --body:#B9C1CC; --muted:#8A94A3;
+      --rule:#252C36; --surface:#161B22; --accent:#E8AE2B;
+    }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--body);
+    font:16px/1.65 ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:70ch; margin:0 auto; padding:48px 22px 80px; }
+  h1 { font-size:31px; line-height:1.15; letter-spacing:-.022em; color:var(--ink);
+       margin:0 0 8px; font-weight:750; }
+  .sub { color:var(--muted); margin:0 0 6px; font-size:16px; }
+  .updated { color:var(--muted); font-size:13px; font-family:ui-monospace,Menlo,monospace;
+             padding-bottom:20px; border-bottom:1px solid var(--rule); }
+  h2 { font-size:19px; color:var(--ink); font-weight:700; letter-spacing:-.012em;
+       margin:38px 0 10px; }
+  h3 { font-size:15px; color:var(--ink); font-weight:660; margin:22px 0 6px; }
+  p { margin:0 0 13px; }
+  ul { margin:0 0 13px; padding-left:20px; }
+  li { margin-bottom:6px; }
+  li::marker { color:var(--muted); }
+  strong { color:var(--ink); font-weight:640; }
+  code { font-family:ui-monospace,Menlo,monospace; font-size:.88em;
+         background:var(--surface); padding:1.5px 5px; border-radius:3px; color:var(--ink); }
+  .box { background:var(--surface); border:1px solid var(--rule); border-radius:4px;
+         padding:16px 18px; margin:18px 0; }
+  .box p:last-child { margin-bottom:0; }
+  table { width:100%; border-collapse:collapse; font-size:14.5px; margin:16px 0; }
+  th { text-align:left; font-size:11px; letter-spacing:.09em; text-transform:uppercase;
+       color:var(--muted); font-weight:600; padding:0 12px 8px 0;
+       border-bottom:1px solid var(--rule); }
+  td { padding:10px 12px 10px 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  td:first-child { color:var(--ink); font-weight:600; white-space:nowrap; }
+  tr:last-child td { border-bottom:none; }
+  .scroll { overflow-x:auto; }
+  a { color:var(--accent); text-underline-offset:2px; }
+  footer { margin-top:46px; padding-top:18px; border-top:1px solid var(--rule);
+           color:var(--muted); font-size:13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="sub">Market Ticker — Live Stocks, Crypto &amp; Forex Prices (Chrome extension)</p>
+  <p class="updated">Last updated: 17 August 2026 · Applies from version 2.4.0</p>
+
+  <div class="box">
+    <p>
+      <strong>In short:</strong> Market Ticker does not track your browsing, does not read the
+      pages you visit, and has no advertising or analytics trackers. It stores your settings
+      on your own device. It sends data to a server only in two situations: to fetch the
+      prices you asked for, and when you deliberately submit feedback or a rating.
+    </p>
+  </div>
+
+  <h2>Information stored on your device</h2>
+  <p>
+    The following is saved locally using Chrome's storage and never leaves your computer:
+  </p>
+  <ul>
+    <li>Your watchlist and which symbols are pinned</li>
+    <li>Your theme choice, and the widget's position and display state</li>
+    <li>Whether you have hidden the widget</li>
+    <li>Counters used to decide whether to show a rating prompt, and whether you have already rated or dismissed it</li>
+  </ul>
+  <p>
+    Uninstalling the extension removes all of it. You can also clear it at any time from
+    Chrome's extension settings.
+  </p>
+
+  <h2>Information sent when prices are fetched</h2>
+  <p>
+    To display prices, the extension sends <strong>the ticker symbols on your watchlist</strong>
+    to two third-party services:
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Service</th><th>What is sent</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>TradingView</td>
+          <td>Your watchlist ticker symbols</td>
+          <td>To retrieve current prices and daily change</td>
+        </tr>
+        <tr>
+          <td>Yahoo Finance</td>
+          <td>The text you type into symbol search</td>
+          <td>To find matching companies and tickers</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    These requests contain no identifier for you — no account, no install ID, no cookie set by
+    this extension. Your use of those services is subject to their own privacy policies.
+  </p>
+
+  <h2>Information sent when you submit feedback or a rating</h2>
+  <p>
+    This happens <strong>only when you actively choose it</strong> — tapping a star, or writing a
+    message and pressing send. Nothing is sent in the background. The data goes to a private
+    Google Sheet owned by the developer, and is not shared with anyone else.
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Field</th><th>Example</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Star rating</td><td><code>4</code></td><td>To understand overall satisfaction</td></tr>
+        <tr><td>Your message</td><td>"BTC price stopped updating"</td><td>Only if you write one</td></tr>
+        <tr><td>Category</td><td><code>missing-symbol</code></td><td>To triage the report</td></tr>
+        <tr><td>Email</td><td><em>optional</em></td><td>Only if you type it, so we can reply</td></tr>
+        <tr><td>Install ID</td><td><code>8f3a…c21d</code></td><td>A random identifier, generated on install. Not linked to you, your Google account, or any other service</td></tr>
+        <tr><td>Extension version</td><td><code>2.4.0</code></td><td>To know which build a report refers to</td></tr>
+        <tr><td>Language</td><td><code>en-IN</code></td><td>To prioritise localisation</td></tr>
+        <tr><td>Operating system</td><td><code>macOS</code></td><td>To reproduce platform-specific bugs</td></tr>
+        <tr><td>Days installed</td><td><code>12</code></td><td>To distinguish new users from long-term ones</td></tr>
+        <tr><td>Times popup opened</td><td><code>9</code></td><td>To distinguish light from heavy usage</td></tr>
+        <tr><td>Watchlist size</td><td><code>7</code></td><td>A count only — <strong>never the symbols themselves</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>What is never collected</h2>
+  <ul>
+    <li><strong>Browsing history</strong> — the extension does not record, store or transmit which sites you visit</li>
+    <li><strong>Page content</strong> — the widget renders in an isolated shadow DOM and does not read the page it appears on</li>
+    <li><strong>Keystrokes, clicks or mouse movement</strong> on web pages</li>
+    <li><strong>Your identity</strong> — no name, no account, no Google sign-in. The only personal detail ever collected is an email address, and only if you type one in</li>
+    <li><strong>Your watchlist contents</strong> in feedback submissions — only the number of symbols</li>
+    <li><strong>Cookies, advertising identifiers or third-party analytics</strong> — the extension contains none</li>
+  </ul>
+
+  <h2>How the information is used</h2>
+  <p>
+    Feedback is used solely to fix bugs, decide what to build next, and reply to you if you
+    asked for a reply. It is <strong>not sold</strong>, not shared with third parties, and not used
+    for advertising, profiling, or credit assessment.
+  </p>
+
+  <h2>Retention and deletion</h2>
+  <p>
+    Feedback entries are kept while they remain useful for product decisions. To have a
+    submission deleted, email the address below with the approximate date and, if you have it,
+    the install ID — settings can be cleared from Chrome's extension settings, and uninstalling
+    removes all local data immediately.
+  </p>
+
+  <h2>Children</h2>
+  <p>Market Ticker is not directed at children under 13 and does not knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>
+    Material changes will be reflected here with a new "last updated" date. Continued use after
+    a change constitutes acceptance of the revised policy.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions, deletion requests, or anything else:
+    <a href="mailto:jyotbir.neo@gmail.com">jyotbir.neo@gmail.com</a>
+  </p>
+
+  <footer>
+    Market Ticker · Chrome Web Store extension ID
+    <code>bpbmlhbeamcacmafkifohcjmlpeiging</code>
+  </footer>
+
+</div>
+</body>
+</html>
